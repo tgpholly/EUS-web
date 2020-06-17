@@ -38,7 +38,7 @@ footer {
     color: #008b8b;
 }
 
-.EUSSidebarContainer {
+.EUSRightSidebarContainer {
     position: fixed;
     top: 45;
     width: calc(100% - calc(100% - 302px));
