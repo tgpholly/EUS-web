@@ -91,22 +91,21 @@ footer {
 }
 
 .EUSFullscreenPageContainer .InsetArea {
-    margin: 39.8334px;
-    margin-top: 0px;
+    margin: 0.01px 39.8334px;
 }
 
 .EUSFullscreenPageContainer h2 {
     margin: 19.9167px;
 }
 
-.EUSFullscreenPageContainer .ProjectContainer {
+.EUSFullscreenPageContainer .ProjectsContainer {
     position: absolute;
     padding-top: 45px;
     left: 50%;
     transform: translate(-50%, -0%);
 }
 
-.EUSFullscreenPageContainer .ProjectContainer .Project {
+.EUSFullscreenPageContainer .ProjectsContainer .Project {
     position: relative;
     border-radius: 4.57px;
     box-shadow: 0 1px 3px 0 #d4d4d5,0 0 0 1px #d4d4d5;
@@ -115,7 +114,7 @@ footer {
     width: 450px;
 }
 
-.EUSFullscreenPageContainer .ProjectContainer .Project p {
+.EUSFullscreenPageContainer .ProjectsContainer .Project p {
     position: absolute;
     top: 15%;
     left: 50%;
