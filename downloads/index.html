@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Home - EUS</title>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam&family=Saira+Semi+Condensed&display=swap" rel="stylesheet"> 
+        <link href="/css/compiled.css" rel="stylesheet" preload="true">
+        <link href="/css/eus.css" rel="stylesheet" preload="true">
+        <script src="/js/fetchStats.js"></script>
+        <script src="/js/navbarHelper.js"></script>
+        <script src="/js/navigationHelper.js"></script>
+    </head>
+    <body>
+        <div class="cssStuff">
+            <div class="Header">
+                <div class="Bar">
+                    <div class="Icon">
+                        <img src="https://ethanus.ml/images/logo.png">
+                    </div>
+                    
+                    <div id="navbarItemContainer">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="Container">
+                <div class="EUSFullscreenPageContainer">
+                    <h2>Downloads</h2>
+                    <div class="InsetArea">
+                        <button class="Button3D Button3D-Teal">Download ShareX sxcu</button>
+                        <button class="Button3D Button3D-Teal">Download Sharenix config</button>
+                        <p>For other screenshot utilities you'll have to do your own config</p>
+                        <p>The endpoint for image uploads is /upload. upload only accepts POST requests</p>
+                        <p>More information is provided at <a href="https://docs.ethanus.ml">EUS Docs</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-element">
+                Running Revolution Version: <b id="vernum">...</b> | Instance: <b id="insta">...</b>
+            </div>
+        </footer>
+
+        <script>
+            // Page initialiser
+            navbar("Downloads");
+            fetchStatsFromAPI();
+        </script>
+    </body>
+</html>

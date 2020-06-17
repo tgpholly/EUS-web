@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Home - EUS</title>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam&family=Saira+Semi+Condensed&display=swap" rel="stylesheet"> 
+        <link href="/css/compiled.css" rel="stylesheet" preload="true">
+        <link href="/css/eus.css" rel="stylesheet" preload="true">
+        <script src="/js/fetchStats.js"></script>
+        <script src="/js/navbarHelper.js"></script>
+        <script src="/js/navigationHelper.js"></script>
+    </head>
+    <body>
+        <div class="cssStuff">
+            <div class="Header">
+                <div class="Bar">
+                    <div class="Icon">
+                        <img src="https://ethanus.ml/images/logo.png">
+                    </div>
+                    
+                    <div id="navbarItemContainer">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="Container">
+                <div class="EUSPageContainer">
+                    <h2>Welcome to the EUS Website</h2>
+                    <h3>What is EUS?</h3>
+                    <p>EUS is a public screenshot server that I made because i'm dumb and I like making silly things.</p>
+                    <p>Setup for different applications is listed on the <a href="/downloads/">Downloads page</a></p>
+                    <div class="spacer">
+                        <img src="https://ethanus.ml/RrYK3vRgDEM8C6">
+                    </div>
+                    <p>EUS is built on top of my nodejs based server <a target="_blank" href="https://github.com/tgpethan/Revolution">Revolution</a></p>
+                    <p>The <a target="_blank" href="https://github.com/tgpethan/EUS-web">EUS Website</a>, <a target="_blank" href="https://github.com/tgpethan/EUS">EUS</a> and <a target="_blank" href="https://github.com/tgpethan/Revolution">Revolution</a> are all open source on github</p>
+                    <p>The font used on the site is <a target="_blank" href="https://fonts.google.com/specimen/Saira+Semi+Condensed">Saira Semi Condensed</a></p>
+                </div>
+
+                <div class="EUSSidebarContainer">
+
+                </div>
+
+                <div class="RightPageItemContainer">
+                    <div class="Card">
+                        <div class="CardContainer">
+                            <div class="Head">Uploaded files: </div>
+                            <div class="Metadata">
+                                PNG: <hh id="png">...</hh> |
+                                JPG: <hh id="jpg">...</hh> |
+                                GIF: <hh id="gif">...</hh>
+                            </div>
+                            <div id="inserta" class="ProgressContainer">
+                                <progress id="spaceBar" class="Progress" value="0" max="100"></progress>
+                                <div class="ProgressPercentage" id="percent">...% Usage</div>
+                            </div>
+                        </div>
+                        <div class="Bottom">
+                            Space Used: <hh id="usedspace">... GB</hh> / 2.00TB
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-element">
+                Running Revolution Version: <b id="vernum">...</b> | Instance: <b id="insta">...</b>
+            </div>
+        </footer>
+
+        <script>
+            // Page initialiser
+            navbar("Home");
+            fetchStatsFromAPI();
+        </script>
+    </body>
+</html>

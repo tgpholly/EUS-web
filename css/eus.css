@@ -1,0 +1,122 @@
+body {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.cssStuff .Container {
+    float: right;
+}
+
+.cssStuff .Container .RightPageItemContainer {
+    position: absolute;
+    right: 0;
+    padding: 6px;
+}
+
+.cssStuff .Header .Button {
+    padding: 9.5px 16px;
+}
+
+footer {
+    position: fixed;
+    background-color: #1b1c1d;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 200;
+    text-align: right;
+}
+
+.footer-element {
+    position: absolute;
+    right: 12px;
+    top: 2px;
+    color: #fff;
+}
+
+.footer-element b {
+    color: #008b8b;
+}
+
+.spacer {
+    height: 215px;
+}
+
+.EUSSidebarContainer {
+    position: fixed;
+    top: 45;
+    width: calc(100% - calc(100% - 302px));
+    height: calc(100% - 75px);
+    box-shadow: 0 1px 3px 0 #d4d4d5,0 0 0 1px #d4d4d5;
+    left: calc(100% - 302px);
+}
+
+.EUSPageContainer {
+    position: fixed;
+    top: 45;
+    left: 0;
+    width: calc(100% - 302px);
+    height: calc(100% - 75px);
+}
+
+.EUSPageContainer img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    border-radius: 4.57px;
+    box-shadow: 0 1px 3px 0 #d4d4d5,0 0 0 1px #d4d4d5;
+    object-fit: contain;
+    max-width: calc(100% - 75.5px);
+}
+
+.EUSPageContainer p {
+    text-align: center;
+}
+
+.EUSPageContainer h2 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.EUSPageContainer h3 {
+    text-align: center;
+}
+
+.EUSFullscreenPageContainer {
+    position: fixed;
+    top: 45;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 75px);
+}
+
+.EUSFullscreenPageContainer .InsetArea {
+    margin: 39.8334px;
+}
+
+.EUSFullscreenPageContainer h2 {
+    margin: 19.9167px;
+}
+
+.EUSFullscreenPageContainer .ProjectContainer {
+    position: absolute;
+    padding-top: 45px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+.EUSFullscreenPageContainer .ProjectContainer .Project {
+    position: relative;
+    border-radius: 4.57px;
+    box-shadow: 0 1px 3px 0 #d4d4d5,0 0 0 1px #d4d4d5;
+    margin-bottom: 45px;
+    min-height: 40px;
+    width: 450px;
+}
+
+.EUSFullscreenPageContainer .ProjectContainer .Project p {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
