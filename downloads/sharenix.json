@@ -1,0 +1,18 @@
+{
+    "DefaultFileUploader": "EUS",
+    "DefaultImageUploader": "EUS",
+    "DefaultUrlShortener": "EUS",
+
+    "Services": [
+        {
+            "Name": "EUS",
+            "RequestType": "POST",
+            "RequestURL": "https://ethanus.ml/upload",
+            "FileFormName": "sharex",
+            "Arguments": {
+                "token": "ohaimark"
+            },
+            "ResponseType": "Text"
+        }
+    ]
+}
