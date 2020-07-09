@@ -1,4 +1,7 @@
-function fetchStatsFromAPI() {
+fetchStatsFromAPI(false);
+
+function fetchStatsFromAPI(b) {
+    if (!b) return;
     updateFileStats();
     getServerInfo();
 }
