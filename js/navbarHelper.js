@@ -7,9 +7,11 @@ const buttons = [
 
 // This function is called on page load to construct the navigation bar.
 function navbar(pageIdentifier) {
+    
     /*
         pageIdentifier - Name of the current page
     */
+
     let constructedNavbarItems = "";
     for (let i = 0; i < buttons.length; i++) {
         // Check if this button is the current page
