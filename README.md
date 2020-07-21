@@ -9,8 +9,6 @@
   <a src="https://discord.gg/BV8QGn6"><img src="https://img.shields.io/discord/477024246959308810?color=7289da&label=Discord&logo=discord&logoColor=ffffff"></a>
 </p>
 
-#### NOTE: The total space is currently hard coded because EUS's API is yet to include total disk space
-
 ## Setup
 
 EUS-web requires an installation of [EUS](https://github.com/tgpethan/EUS) to work, see the [EUS Setup guide](https://github.com/tgpethan/EUS#setup) for more details.
