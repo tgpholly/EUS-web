@@ -16,8 +16,8 @@ Once EUS is installed drop EUS-web's files into the EUS/files folder and it shou
 
 ## API Usage
 
-EUS-web makes use of the [EUS API](https://ethanus.ml/api/) and therefore can not be used without [EUS](https://github.com/tgpethan/EUS).
-The endpoints EUS-web makes use of are [/api/get-stats](https://ethanus.ml/api/get-stats) and [api/get-info](https://ethanus.ml/api/get-info)
+EUS-web makes use of the [EUS API](https://eusv.ml/api/) and therefore can not be used without [EUS](https://github.com/tgpethan/EUS).
+The endpoints EUS-web makes use of are [/api/get-stats](https://eusv.ml/api/get-stats) and [api/get-info](https://eusv.ml/api/get-info)
 
 ## Adding pages
 
