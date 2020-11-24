@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="150" height="150" src="http://ethanus.ml/images/logo.png">
+  <img width="150" height="150" src="http://eusv.ml/images/logo.png">
 </p>
 <p align="center">
   EUS-web is the current frontend of <a href="https://github.com/tgpethan/EUS">EUS</a>, my public screenshot server.<br>
@@ -16,8 +16,8 @@ Once EUS is installed drop EUS-web's files into the EUS/files folder and it shou
 
 ## API Usage
 
-EUS-web makes use of the [EUS API](https://ethanus.ml/api/) and therefore can not be used without [EUS](https://github.com/tgpethan/EUS).
-The endpoints EUS-web makes use of are [/api/get-stats](https://ethanus.ml/api/get-stats) and [api/get-info](https://ethanus.ml/api/get-info)
+EUS-web makes use of the [EUS API](https://eusv.ml/api/) and therefore can not be used without [EUS](https://github.com/tgpethan/EUS).
+The endpoints EUS-web makes use of are [/api/get-stats](https://eusv.ml/api/get-stats) and [api/get-info](https://eusv.ml/api/get-info)
 
 ## Adding pages
 
