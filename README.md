@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="150" height="150" src="http://eusv.ml/images/logo.png">
+  <img width="150" height="150" src="http://eusv.ml/images/EUSLossless.webp">
 </p>
 <p align="center">
   EUS-web is the current frontend of <a href="https://github.com/tgpethan/EUS">EUS</a>, my public screenshot server.<br>
